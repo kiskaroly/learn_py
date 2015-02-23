@@ -1,0 +1,9 @@
+def reverse_string(x):
+    reversed_x = ""
+    for i in range(0, len(x)):
+        reversed_x = x[i] + reversed_x
+        print x[i]
+    return reversed_x
+
+
+print reverse_string("Python!")
